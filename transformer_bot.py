@@ -39,7 +39,7 @@ def get_message():
 @server.route('/')
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://yourherokuappname.herokuapp.com/' + bot_token)
+    bot.set_webhook(url='https://telegramtransformer.herokuapp.com/' + bot_token)
     return "!" "200"
 
 
