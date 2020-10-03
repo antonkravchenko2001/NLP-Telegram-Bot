@@ -39,7 +39,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://calm-depths-10002.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://floating-plains-37472.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
