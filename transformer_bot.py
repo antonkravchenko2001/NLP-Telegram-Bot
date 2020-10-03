@@ -2,7 +2,6 @@ import os
 import telebot
 from model import predict, input_dict
 from flask import Flask, request
-
 server = Flask(__name__)
 TOKEN = "1214344625:AAGtZ34OgYUOQSMLgwC9tiGkqhJIsJJ-1Bg"
 bot = telebot.TeleBot(token=TOKEN)
@@ -40,15 +39,12 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://telegram-transformer-bot.com/' + TOKEN)
+    bot.set_webhook(url='https://blooming-bayou-33940.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
 if __name__ == "__main__":
     server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
-
-
-
 
 """
 while True:
