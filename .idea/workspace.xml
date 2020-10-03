@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e7097eb6-8af3-45fa-8225-4479a18f4884" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/transformer_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Machine_translation/Model.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.polynomial">
+  <component name="RunManager" selected="Python.transformer_bot">
     <configuration name="model" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="transformer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,7 +56,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="polynomial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="transformer_bot" type="PythonConfigurationType" factoryName="Python">
       <module name="transformer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,8 +68,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polynomial.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transformer_bot.py" />
+      <option name="PARAMETERS" value="C:\Users\anton\PycharmProjects\transformer\transformer_bot.py" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -76,11 +77,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.polynomial" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Python.model" />
+      <item itemvalue="Python.transformer_bot" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,10 +96,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601453660174">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601721181428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601453660174" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601721181428" />
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601728434755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601728434755" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599334238642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -120,22 +124,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="254" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1599320202708" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1601681939790">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1601728094601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601681939790" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1601681939790">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601728094601" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1601728094601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601681939790" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1601681939790">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601728094601" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1601728094600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601681939790" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1601681939790">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601728094600" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1601728094601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601681939790" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601728094601" />
     <state x="649" y="541" width="514" height="225" key="GridCell.Tab.1.bottom" timestamp="1601277642711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -188,10 +192,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599052722092" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1601561458787">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1601723444438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601561458787" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601723444438" />
     <state x="649" y="541" width="528" height="290" key="dock-window-1" timestamp="1601277732826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
