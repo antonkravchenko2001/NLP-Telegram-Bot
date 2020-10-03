@@ -185,4 +185,4 @@ target_vocab_size = len(target_dict)
 batch_size=100
 transformer = Transformer(input_vocab_size=input_vocab_size, target_vocab_size=target_vocab_size, d_model=d_model, num_heads=num_heads, num_layers_encoder=1, num_layers_decoder=1)
 transformer.load_weights('C:\\Users\\anton\\PycharmProjects\\transformer\\venv\\transformer_model\\my_model')
-
+print(tf.__version__)
