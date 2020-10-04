@@ -1,10 +1,18 @@
 import os
 from flask import Flask, request
 import telebot
+from model import predict, input_dict
 
 TOKEN = '1214344625:AAGtZ34OgYUOQSMLgwC9tiGkqhJIsJJ-1Bg'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
+
+
+def validate(mess):
+    for word in mess:
+        if word not in input_dict.keys():
+            return False
+    return True
 
 
 @bot.message_handler(commands=['start'])
