@@ -9,7 +9,7 @@ server = Flask(__name__)
 
 
 def validate(mess):
-    for word in mess:
+    for word in mess.split():
         if word not in input_dict.keys():
             return False
     return True
@@ -20,9 +20,9 @@ def start(message):
     bot.reply_to(message, "Hi, I'm transformer bot!")
 
 
-@bot.message_handler(func=lambda message: True, content_types=['text'])
+@bot.message_handler(func=lambda message: validate(message) == True)
 def echo_message(message):
-    bot.reply_to(message, message.text)
+    bot.reply_to(message, predict(message.text))
 
 
 @server.route('/' + TOKEN, methods=['POST'])
