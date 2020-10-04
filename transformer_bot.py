@@ -34,7 +34,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://telegram-nlp-bot.com/' + TOKEN)
+    bot.set_webhook(url='https://telegram-nlp-bot.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
