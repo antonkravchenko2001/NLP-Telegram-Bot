@@ -30,7 +30,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://fast-dawn-86618.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://aqueous-wave-71376.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
